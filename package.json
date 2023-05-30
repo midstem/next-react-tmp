@@ -2,6 +2,7 @@
   "name": "next-template",
   "version": "0.2.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,7 +10,7 @@
     "lint": "eslint --cache ./src ./pages",
     "lint:format": "prettier --write --loglevel warn \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
     "lint:fix": "eslint --cache --fix ./src ./pages",
-    "make": "node cli.mjs"
+    "nova": "node cli.js"
   },
   "dependencies": {
     "next": "13.4.4",
